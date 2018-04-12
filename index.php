@@ -1,5 +1,5 @@
 <?php
-$file = file_get_contents("base.json");
+$file = file_get_contents(__DIR__ . "/base.json");
 $decode = json_decode($file, true);
 ?>
 
